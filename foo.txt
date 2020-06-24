@@ -1,0 +1,43 @@
+CellProfiler Pipeline: http://www.cellprofiler.org
+Version:5
+DateRevision:400
+GitHash:
+ModuleCount:1
+HasImagePlaneDetails:False
+
+IdentifyPrimaryObjects:[module_num:0|svn_version:'Unknown'|variable_revision_number:14|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:my_image
+    Name the primary objects to be identified:my_object
+    Typical diameter of objects, in pixel units (Min,Max):4,15
+    Discard objects outside the diameter range?:No
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:Shape
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:10
+    Suppress local maxima that are closer than this minimum allowed distance:7.0
+    Speed up by using lower-resolution image to find local maxima?:Yes
+    Fill holes in identified objects?:After both thresholding and declumping
+    Automatically calculate size of smoothing filter for declumping?:Yes
+    Automatically calculate minimum allowed distance between local maxima?:Yes
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Display accepted local maxima?:No
+    Select maxima color:Blue
+    Use advanced settings?:Yes
+    Threshold setting version:10
+    Threshold strategy:Global
+    Thresholding method:Measurement
+    Threshold smoothing scale:0.0
+    Threshold correction factor:2.5
+    Lower and upper bounds on threshold:0.000000,1.000000
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Otsu
